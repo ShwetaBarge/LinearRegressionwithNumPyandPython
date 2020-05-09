@@ -6,8 +6,6 @@ The hands on project on Linear Regression with NumPy and Python is divided into 
 
 ### Task 1: Introduction and Import Libraries
 Introduction to the data set and the problem overview.
-See a demo of the final product you will build by the end of this project.
-Introduction to the Rhyme interface.
 Import essential modules and helper functions from NumPy and Matplotlib.
 ### Task 2: Load the Data and Libraries
 Load the dataset using pandas.
@@ -28,8 +26,7 @@ In batch gradient descent, each iteration performs the following update.
 With each step of gradient descent, the parameters 𝜃_j come closer to the optimal values that will achieve the lowest cost J(𝜃).
 ### Task 6: Visualizing the Cost Function J(𝜃)
 To better understand the cost function J(𝜃), we will plot the cost over a 2-dimensional grid of 𝜃_0 and 𝜃_1 values.
-
-The purpose of this graph is to show you how J(𝜃) varies with changes in 𝜃_0 and 𝜃_1.
+The purpose of this graph is to show how J(𝜃) varies with changes in 𝜃_0 and 𝜃_1.
 We can see that the cost function J(𝜃) is bowl-shaped and has a global minimum.
 ### Task 7: Plotting the Convergence
 Let’s plot how the cost function varies with the number of iterations.
@@ -38,4 +35,4 @@ We will now plot the J values against the number of iterations.
 ### Task 8: Training Data with Univariate Linear Regression Fit
 Now that we have correctly implemented and run gradient descent and arrived at the final parameters of our model, we can use these parameters to plot the linear fit. 
 ### Task 9: Inference using the optimized 𝜃 values
-In this final task, let’s use our final values for 𝜃 to make predictions on profits in cities of 35,000 and 70,000 people. 
+In this final task, use final values for 𝜃 to make predictions on profits in cities of 35,000 and 70,000 people. 
